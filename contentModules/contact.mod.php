@@ -1,0 +1,1 @@
+<p>Whether you are enquiring about wholesale or retail please don't hesitate to get in touch! emma@emmasemporium.org</p>

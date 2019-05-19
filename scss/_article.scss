@@ -1,0 +1,107 @@
+/*
+*****************************
+* www.emmasemporium.org 3.0.0
+*****************************
+*
+* Original author: Satyadarshin
+* Document created: February 2017
+*
+* Abstract:
+*/
+
+article {
+    margin-bottom: -2.5rem;
+    h2 {
+        margin: 0 -1rem 2rem;
+        background-color: $base_colour;
+        padding: 0 .75rem;
+        color: $white;
+    }
+    h3 {
+        color: $heading_colour;
+    }
+    .slide {
+        border-bottom: 1px dotted white;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,f7f3e8+43,bde1fb+100 */
+        background: rgba(48, 213, 200, 1);
+        /* Old browsers */
+        //background: -moz-linear-gradient(top,  rgba(48,213,200,1) 1%, rgba(38,213,255,1)43%, #bde1fb 100%); /* FF3.6-15 */
+        //background: -webkit-linear-gradient(top,  rgba(48,213,200,1) 1%,rgba(38,213,255,1) 43%,#bde1fb 100%); /* Chrome10-25,Safari5.1-6 */
+        //background: linear-gradient(to bottom,  rgba(48,213,200,1) 1%,rgba(38,213,255,1) 43%,#bde1fb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(38,213,255,1)', endColorstr='#bde1fb',GradientType=0 ); /* IE6-9 */
+    }
+    .crumbs {
+        margin-top: 0;
+        padding-top: .75rem;
+        background-color: $contrast;
+    }
+    section {
+        padding-bottom: 2.5rem;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f7f3e8+100 */
+        background: rgb(255, 255, 255);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(247, 243, 232, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(247, 243, 232, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(247, 243, 232, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        //filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f3e8', GradientType=0);
+        /* IE6-9 */
+    }
+    .gallery {
+        .row .columns {
+            margin-bottom: 1.25rem;
+        }
+    }
+}
+
+.sidebar {
+    @include breakpoint( medium down) {
+        sdisplay: none;
+    }
+}
+
+.stk {
+    border: 1px solid;
+    border-radius: 10px 10px 0 0;
+    background-color: $white;
+    margin-bottom: 1rem;
+}
+
+.stk__illus {
+    img {
+        display: block;
+        margin: 0 auto 1rem auto;
+    }
+}
+
+.stand_out {
+    font-size: 150%;
+    .drop_cap {
+        height: 100px;
+        display: inline-block;
+        clear: both;
+        margin: 0;
+        float: left;
+        margin-top: -1.75rem;
+        padding-bottom: 1rem;
+        font-size: 350%
+    }
+    font-family: $headings;
+    border-top: 2px dotted $heading_colour;
+    border-bottom: 2px dotted $heading_colour;
+    padding: .5rem 0;
+    color: $heading_colour;
+    a {
+        color: #6e11ac;
+        &:hover {
+            color: $neutral;
+        }
+    }
+}
+
+.post {
+    width: 48%;
+    float: left;
+}

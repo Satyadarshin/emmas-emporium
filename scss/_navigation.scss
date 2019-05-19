@@ -1,0 +1,18 @@
+.top-bar {
+    a { 
+        text-align: left;
+        color: $white;
+        &:hover {
+            background-color: $base_colour;
+            color:aliceblue !important;
+        }
+    }
+}
+
+.dropdown li li {
+    border-bottom: 1px solid $base_colour;
+    &:last-child {
+    border-bottom: none;
+    }
+    //background-color: antiquewhite !important;   
+}

@@ -1,0 +1,96 @@
+/*
+*****************************
+* www.emmasemporium.org 3.0.0
+*****************************
+*
+* Original author: Satyadarshin
+* Document created: February 2017
+*
+* Abstract: 
+*/
+
+.sidebar {
+    p {
+        
+        background-color: $white;  
+        @include breakpoint( medium ) {
+            &:first-child {
+                padding: 1rem ; 
+                //border-radius: 0 .5rem 0 0;
+            }
+            &:last-child {
+                padding: 1rem ; 
+                border-radius: 0 0 .5rem .5rem;
+            }
+        }
+        @include breakpoint( small only ) {
+            &:first-child {
+                padding: .5rem 1rem 0 1rem; 
+                border-radius: .5rem .5rem 0 0;
+                img {
+                    
+                    margin-bottom: 0rem;
+                    margin-top: 1rem;
+                }
+            }
+            &:last-child {
+                padding: 0 1rem .5rem 1rem;
+                border-radius: 0 0 .5rem .5rem; 
+                img {
+                    margin-bottom: 1rem;
+                    margin-top: 0;
+                }
+            }
+        }
+        img {
+            display: block;
+            margin-left: auto;
+                    margin-right: auto;
+        }
+    }
+}
+
+.cat__gallery {
+    margin-bottom: 2rem;
+    border-top: 1px dotted;
+    
+    h2 {
+        color: $white !important;
+    }
+    .row:first-child {
+        h2 {
+            background-color: $base_colour; 
+            border: none; padding: 1rem;
+        }
+    }
+    .row {
+        margin-bottom: .25rem;
+        
+        @include breakpoint( medium only ) {
+            div {
+                &:nth-child( odd ) { 
+                    p {
+                        border: 1px dotted;
+                        img {
+                            margin-right: 0;
+                        }
+                    }
+                }
+                &:nth-child( even ) { 
+                    p {
+                        border: 1px dotted;
+                        img {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            } 
+        }
+        p {
+            img {
+                display: block;
+                margin: 0 auto 0 auto;
+            }
+        }
+    }
+}

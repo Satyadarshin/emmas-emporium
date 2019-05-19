@@ -1,0 +1,1 @@
+<p><img src="images/layout/sequinJacket.jpg" alt="Man wearing black sequin jacket, shutter shades, and tie-dye trousers" /></p>

@@ -1,0 +1,1 @@
+<p><img src="images/layout/laughingPlaysuitBonnie.jpg" alt="Woman in a playsuit laughing"/></p>

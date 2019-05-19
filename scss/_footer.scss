@@ -1,0 +1,88 @@
+/*
+*****************************
+* www.emmasemporium.org 3.0.0
+*****************************
+*
+* Original author: Satyadarshin
+* Document created: February 2017
+*
+* Abstract: 
+*/
+
+footer {
+    background-color: $base_colour;
+    min-height: 15rem;
+    padding: 2rem 0;
+    .social_btns {
+        overflow: auto;
+        //height:5rem;
+        margin-top: 0;
+        #eBay {
+            img {
+                height: 4rem;
+            }
+        }
+    }
+    .row:first-child {
+        padding: 1rem 0 .5rem;
+        margin-top: -1.5rem;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00cdeb+0,00b4cd+100 */
+        background: #00cdeb;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #00cdeb 0%, #00b4cd 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #00cdeb 0%, #00b4cd 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #00cdeb 0%, #00b4cd 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        p {
+            @include breakpoint( medium) {
+                &:first-child {
+                    width: 18%;
+                    float: left;
+                    clear: right;
+                    text-align: right
+                }
+                &:last-child {
+                    margin-top: 25px;
+                    width: 25%;
+                    float: right;
+                    text-align: left;
+                    a {
+                        margin-right: 1rem;
+                    }
+                }
+            }
+            @include breakpoint( small) {
+                text-align: center;
+                &:last-child {
+                    a {
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .row:nth-child(2) {
+        background-color: $base_colour;
+        padding-top: 1rem;
+        font-weight: bold;
+        color: $white;
+        div:first-child {
+            @include breakpoint( large only) {
+                text-align: left;
+            }
+            @include breakpoint( medium down) {
+                text-align: center;
+            }
+        }
+        div:last-child {
+            @include breakpoint( large) {
+                text-align: right;
+            }
+            @include breakpoint( medium down) {
+                text-align: center;
+            }
+        }
+    }
+}

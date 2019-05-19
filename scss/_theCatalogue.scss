@@ -1,0 +1,116 @@
+.category {
+    height: 475px;
+    h4 { 
+        font-size: 95%;
+        position: relative;
+        z-index: 2;
+        display: block;
+        top: -2.5rem;
+        width: 100%; 
+        a { 
+            display: inline-block;
+            background-color: transparent;
+            width: 100%; 
+            text-align: center;
+            color: $white;   
+        }
+    }
+    span { 
+        position: relative; 
+        z-index: 1; 
+        opacity: .5;
+        display: block; 
+        width: 100%; 
+        background-color: $black; 
+        padding: 1rem 0;
+        top: -5.25rem;
+    }
+    &:hover {
+        opacity: .5;
+    }
+}
+
+.item_data {
+    border-radius: 0 0 10px 10px;
+    border: 1px solid silver;
+    margin-bottom: 2rem;
+    background-color: $white;
+    table {
+        border-top: 1px dotted silver;   
+    }
+}
+
+.item_image { 
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+    img {
+        width: 380px;
+        height: 507px;
+        @include breakpoint( large ) {  
+            margin-top: 0;
+        }
+        @include breakpoint( medium down ) {  
+            margin-bottom: .5rem;
+            width: 100%;
+        }
+    }
+}
+
+.complete_category { 
+   // border: 1px solid $heading_colour; 
+    border: 1px solid silver; 
+    background-color: $white;
+    border-radius: 10px;
+    h4 {  
+        font-family: $headings;
+        color: $heading_colour;
+        padding: .5rem 0 .5rem .75rem;
+        margin: -.5rem 0 .75rem  0;
+    }
+    p { 
+        //color: $heading_colour;
+        &:nth-child( even ) {
+            border-right: none;
+        }
+        &:nth-child( odd ) {
+            border-left: none;
+        }
+        margin-top: -.8rem;
+        margin-bottom: 1.75rem;
+        text-align: center;
+        span { 
+            //font-weight: bold;
+            padding: .5rem 0;
+            display: inline-block;
+        }
+        img { 
+            width: 380px;
+            height: 507px;
+            display: block;
+            width: 100%;
+            &:hover {
+                opacity: .5;
+            }
+        }
+        &:hover {
+            color: $white;
+            background-color: $base_colour;
+        }
+    }
+}
+
+.more {
+    border-bottom: 1px dotted $heading_colour;
+    font-weight: bold;
+    text-align: center;
+    padding: .25rem 0 .25rem .75rem;
+}
+
+.previous {
+    border-radius: 50px 0 0 50px;
+} 
+
+.next {
+    border-radius: 0 50px 50px 0;
+}

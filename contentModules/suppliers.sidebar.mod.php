@@ -1,0 +1,1 @@
+<p><img src="images/layout/landscape.jpg" alt=""/></p>

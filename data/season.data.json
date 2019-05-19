@@ -1,0 +1,185 @@
+{
+    "season": {
+        "Spring-Summer": {
+            "Women's Clothing": {
+                "subcategory_image": "",
+                "Jackets & Waistcoats": {
+                    "category_image": "SS50.thumb",
+                    "stock_list": ["SS50", "SS51", "SS52", "SS54", "OS39", "OS56"]
+                },
+                "Dresses & Jumpsuits": {
+                    "category_image": "SS58.thumb",
+                    "stock_list": ["SS57", "SS58", "SS59", "SS60", "SS61", "SS63", "SS79"]
+                },
+                "Skirts": {
+                    "category_image": "SS01.thumb",
+                    "stock_list": ["SS64", "SS20", "SS01", "SS03", "SS14", "SS66"]
+                },
+                "Tops & Vests": {
+                    "category_image": "EC16.thumb",
+                    "stock_list": ["SS67", "SS68", "EC16", "SS08", "OS24", "EC19", "SS70", "SS71"]
+                },
+                "Trousers": {
+                    "category_image": "SS76a.thumb",
+                    "stock_list": ["OS19", "SS76", "SS76a"]
+                },
+                "Palazzo Trousers": {
+                    "category_image": "SS06.thumb",
+                    "stock_list": ["SS06", "OS12", "OS12A", "OS01"]
+                },
+                "Genie Trousers": {
+                    "category_image": "OS22a.thumb",
+                    "stock_list": ["OS22", "OS22a", "OS22b", "OS22c", "OS21"]
+                },
+                "Harem Trousers": {
+                    "category_image": "OS15b.thumb",
+                    "stock_list": ["OS15", "OS15a", "OS15b", "OS15c", "OS14"]
+                }
+            },
+            "Children's Clothing": {
+                "subcategory_image": "",
+                "Children's Trousers": {
+                    "category_image": "CH04.thumb",
+                    "stock_list": ["CH01", "CH02", "CH03", "CH04"]
+                }
+            },
+            "Accessories": {
+                "subcategory_image": "",
+                "Bags, Purses & Moneybelts": {
+                    "category_image": "SS16.thumb",
+                    "stock_list": ["SS16", "SS15", "BG04", "BG01", "GUA10"]
+                },
+                "Scarves & Shawls": {
+                    "category_image": "SC01.thumb",
+                    "stock_list": ["SC01", "SC02", "SC13", "SC12", "BL01", "SC05"]
+                },
+                "Gifts & Things": {
+                    "category_image": "AC05.thumb",
+                    "stock_list": ["GUA06", "BR01", "AC05", "AC01", "AC04", "AC08", "IN01"]
+                },
+                "Things on Strings": {
+                    "category_image": "TS04.thumb",
+                    "stock_list": ["TS01/02", "TS03", "TS04", "TS05"]
+                }
+            },
+            "Interiors": {
+                "subcategory_image": "",
+                "Bedspreads": {
+                    "category_image": "BS04.thumb",
+                    "stock_list": ["BS01", "BS02", "BS03", "BS04", "BS06", "BS24"]
+                },
+                "Cushion Covers": {
+                    "category_image": "CC20.thumb",
+                    "stock_list": ["CC01", "CC02", "CC03", "CC04", "CC20", "CC22", "CC23"]
+                }
+            },
+            "Gifts &amp; Things": {
+                "subcategory_image": "",
+                "Tourans & Bunting": {
+                    "category_image": "AC07.thumb",
+                    "stock_list": ["AC07", "AC08", "AC09"]
+                }
+            }
+        }
+    },
+    "Autumn-Winter": {
+        "Women&rsquo;s Clothing": {
+            "subcategory_image": "",
+            "Coats &amp; Ponchos": {
+                "category_image": "AW01.thumb",
+                "stock_list": ["AW01", "AW03", "AW04", "AW15", "AW15a"]
+            },
+            "Genie Trousers": {
+                "category_image": "ORG02.thumb",
+                "stock_list": ["AW11", "AW22", "ORG02"]
+            },
+            "Harem Trousers": {
+                "category_image": "AW19a.thumb",
+                "stock_list": ["AW19", "AW19a", "AW20", "AW21", "ORG01"]
+            },
+            "Party Things": {
+                "category_image": "AW28.thumb",
+                "stock_list": ["AW28", "EC18", "SS05", "SS08", "SS19"]
+            },
+            "Skirts &amp; Dresses": {
+                "category_image": "AW10.thumb",
+                "stock_list": ["AW10", "AW12", "AW24", "AW26"]
+            },
+            "Tops": {
+                "category_image": "AW06.thumb",
+                "stock_list": ["AW06", "AW07", "AW18"]
+            }
+        },
+        "Children&rsquo;s Clothing": {
+            "subcategory_image": "",
+            "Ponchos": {
+                "category_image": "AW25.thumb",
+                "stock_list": ["AW25"]
+            },
+            "Harem trousers": {
+                "category_image": "AW27.thumb",
+                "stock_list": ["AW27"]
+            }
+        },
+        "Men&rsquo;s Clothing": {
+            "subcategory_image": "",
+            "Men&rsquo;s Harem Trousers": {
+                "category_image": "OS19.thumb",
+                "stock_list": ["OS19"]
+            },
+            "Men&rsquo;s Velvet Waiscoat": {
+                "category_image": "OS20.thumb",
+                "stock_list": ["OS20"]
+            }
+        },
+        "Accessories": {
+            "subcategory_image": "",
+            "Bags, Purses &amp; Moneybelts": {
+                "category_image": "BG02.thumb",
+                "stock_list": ["BG01", "BG02", "BG03", "EC18"]
+            },
+            "Blankets": {
+                "category_image": "BL04.thumb",
+                "stock_list": ["BL01", "BL03", "BL04", "BL05", "BL08"]
+            },
+            "Scarves &amp; Sarongs": {
+                "category_image": "SC12.thumb",
+                "stock_list": ["SC05", "SC12", "SC13", "SC36"]
+            }
+        },
+        "Interiors": {
+            "subcategory_image": "",
+            "Bedspreads": {
+                "category_image": "BS05.thumb",
+                "stock_list": ["BS01", "BS02", "BS03", "BS04", "BS05", "BS06", "BS14", "BS25"]
+            },
+            "Cushion Covers": {
+                "category_image": "CC22.thumb",
+                "stock_list": ["CC00", "CC02", "CC03", "CC04", "CC20", "CC22", "CC23"]
+            }
+        },
+        "Gifts &amp; Things": {
+            "subcategory_image": "",
+            "Bindis": {
+                "category_image": "AC05.thumb",
+                "stock_list": ["AC05", "AC06"]
+            },
+            "Notebooks": {
+                "category_image": "AC03-04.thumb",
+                "stock_list": ["AC01/AC02", "AC04/AC03"]
+            },
+            "Parasols": {
+                "category_image": "AC14.thumb",
+                "stock_list": ["AC14"]
+            },
+            "Things on Strings": {
+                "category_image": "TS03.thumb",
+                "stock_list": ["TS01/02", "TS03", "TS04", "TS05", "TS06"]
+            },
+            "Tourans &amp; Bunting": {
+                "category_image": "AC08.thumb",
+                "stock_list": ["AC07", "AC08", "AC09"]
+            }
+        }
+    }
+}

@@ -4042,7 +4042,7 @@ article {
 
 @media screen and (max-width: 63.9375em) {
   .sidebar {
-    sdisplay: none; } }
+    display: none; } }
 
 .stk {
   border: 1px solid;
@@ -4057,9 +4057,9 @@ article {
 .stand_out {
   font-size: 150%;
   font-family: "Spirax", cursive;
-  border-top: 2px dotted #b13dff;
   border-bottom: 2px dotted #b13dff;
-  padding: .5rem 0;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
   color: #b13dff; }
   .stand_out .drop_cap {
     height: 100px;
@@ -4068,7 +4068,7 @@ article {
     margin: 0;
     float: left;
     margin-top: -1.75rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     font-size: 350%; }
   .stand_out a {
     color: #6e11ac; }
@@ -4092,31 +4092,26 @@ article {
 *
 * Abstract: 
 */
-.sidebar p {
-  background-color: #fefefe; }
-  @media print, screen and (min-width: 40em) {
-    .sidebar p:first-child {
-      padding: 1rem; }
-    .sidebar p:last-child {
-      padding: 1rem;
-      border-radius: 0 0 .5rem .5rem; } }
-  @media screen and (max-width: 39.9375em) {
-    .sidebar p:first-child {
-      padding: .5rem 1rem 0 1rem;
-      border-radius: .5rem .5rem 0 0; }
-      .sidebar p:first-child img {
-        margin-bottom: 0rem;
-        margin-top: 1rem; }
-    .sidebar p:last-child {
-      padding: 0 1rem .5rem 1rem;
-      border-radius: 0 0 .5rem .5rem; }
-      .sidebar p:last-child img {
-        margin-bottom: 1rem;
-        margin-top: 0; } }
-  .sidebar p img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
+.sidebar {
+  margin-top: -2rem; }
+  .sidebar p {
+    margin: 0 -1rem; }
+    @media screen and (max-width: 39.9375em) {
+      .sidebar p:first-child {
+        padding: .5rem 1rem 0 1rem;
+        border-radius: .5rem .5rem 0 0; }
+        .sidebar p:first-child img {
+          margin-bottom: 0rem;
+          margin-top: 1rem; }
+      .sidebar p:last-child {
+        padding: 0 1rem .5rem 1rem;
+        border-radius: 0 0 .5rem .5rem; }
+        .sidebar p:last-child img {
+          margin-bottom: 1rem;
+          margin-top: 0; } }
+    .sidebar p img {
+      object-fit: cover;
+      display: block; }
 
 .cat__gallery {
   margin-bottom: 2rem;
@@ -4192,15 +4187,16 @@ article {
         width: 100%; } }
 
 .complete_category {
-  border: 1px solid silver;
+  border: 1px solid #00cbf3;
   background-color: #fefefe;
   border-radius: 10px; }
   .complete_category h4 {
     font-family: "Spirax", cursive;
     color: #b13dff;
     padding: .5rem 0 .5rem .75rem;
-    margin: -.5rem 0 .75rem  0; }
+    margin: -.5rem 0 .75rem 0; }
   .complete_category p {
+    background-color: #00cbf3;
     margin-top: -.8rem;
     margin-bottom: 1.75rem;
     text-align: center; }

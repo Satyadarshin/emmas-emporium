@@ -58,7 +58,7 @@ article {
 
 .sidebar {
     @include breakpoint( medium down) {
-        sdisplay: none;
+        display: none;
     }
 }
 
@@ -85,13 +85,13 @@ article {
         margin: 0;
         float: left;
         margin-top: -1.75rem;
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
         font-size: 350%
     }
     font-family: $headings;
-    border-top: 2px dotted $heading_colour;
     border-bottom: 2px dotted $heading_colour;
-    padding: .5rem 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
     color: $heading_colour;
     a {
         color: #6e11ac;

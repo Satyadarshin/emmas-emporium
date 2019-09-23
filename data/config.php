@@ -61,7 +61,7 @@ define('SCHEMA','http://schema.org/LocalBusiness');
 $GLOBALS['eBay_store'] = ' https://stores.ebay.co.uk/emmasemporiumtextiles/';
 $GLOBALS['facebook_page'] = 'https://www.facebook.com/pages/Emmas-emporium/254362121267512';
 $GLOBALS['twitter']= 'https://twitter.com/emma_emporium';
-$GLOBALS['instagram']  = 'https://www.instagram.com/emma_emporium12/';
+$GLOBALS['instagram']  = 'https://www.instagram.com/emma_emporium/';
 
 /********************
  * Toggles & switches

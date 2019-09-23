@@ -10,32 +10,34 @@
 */
 
 .sidebar {
+    //border: 1px solid red;
+    margin-top: -2rem;
     p {
-        
-        background-color: $white;  
-        @include breakpoint( medium ) {
+        //border: 1px solid blue;
+        margin: 0 -1rem;
+        //background-color: $white;  
+        @include breakpoint( medium) {
             &:first-child {
-                padding: 1rem ; 
+                //padding: 1rem;
                 //border-radius: 0 .5rem 0 0;
             }
             &:last-child {
-                padding: 1rem ; 
-                border-radius: 0 0 .5rem .5rem;
+                //padding: 1rem;
+                //border-radius: 0 0 .5rem .5rem;
             }
         }
-        @include breakpoint( small only ) {
+        @include breakpoint( small only) {
             &:first-child {
-                padding: .5rem 1rem 0 1rem; 
+                padding: .5rem 1rem 0 1rem;
                 border-radius: .5rem .5rem 0 0;
                 img {
-                    
                     margin-bottom: 0rem;
                     margin-top: 1rem;
                 }
             }
             &:last-child {
                 padding: 0 1rem .5rem 1rem;
-                border-radius: 0 0 .5rem .5rem; 
+                border-radius: 0 0 .5rem .5rem;
                 img {
                     margin-bottom: 1rem;
                     margin-top: 0;
@@ -43,9 +45,11 @@
             }
         }
         img {
+            // height: 800px;
+            object-fit: cover;
             display: block;
-            margin-left: auto;
-                    margin-right: auto;
+            // margin-left: auto;
+            // margin-right: auto;
         }
     }
 }
@@ -53,22 +57,21 @@
 .cat__gallery {
     margin-bottom: 2rem;
     border-top: 1px dotted;
-    
     h2 {
         color: $white !important;
     }
     .row:first-child {
         h2 {
-            background-color: $base_colour; 
-            border: none; padding: 1rem;
+            background-color: $base_colour;
+            border: none;
+            padding: 1rem;
         }
     }
     .row {
         margin-bottom: .25rem;
-        
-        @include breakpoint( medium only ) {
+        @include breakpoint( medium only) {
             div {
-                &:nth-child( odd ) { 
+                &:nth-child( odd) {
                     p {
                         border: 1px dotted;
                         img {
@@ -76,7 +79,7 @@
                         }
                     }
                 }
-                &:nth-child( even ) { 
+                &:nth-child( even) {
                     p {
                         border: 1px dotted;
                         img {
@@ -84,7 +87,7 @@
                         }
                     }
                 }
-            } 
+            }
         }
         p {
             img {

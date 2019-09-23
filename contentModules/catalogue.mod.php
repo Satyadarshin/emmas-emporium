@@ -195,9 +195,8 @@ else {
 ?>
 <p class="stand_out">
   <!-- <span class="drop_cap">E</span>mma&rsquo;s Emporium Autumn Winter collection is now available to buy wholesale. As well as our main catalogue, we have added a range of soft fleecy trousers, ponchos and more. To <a href="?page=contact">request a copy of our Autumn Winter 2018 wholesale catalogue</a> please contact us. -->
-
-  <span class="drop_cap">W</span>elcome to our current online, wholesale catalogue. Please <a href="?page=contact">contact us</a> for wholesale enquiries. For retail please visit <a href="?page=stockists">one of our stockists</a> , or visit our <a href="<?php echo $GLOBALS['eBay_store']; ?>">eBay shop, Emma&rsquo;s Emporium Textiles</a>, to buy a select range on line, and don&rsquo;t forget to follow our social media links to keep up to date with our latest news.</p>
-
+  <span class="drop_cap">W</span>elcome to our current online, wholesale catalogue. We have an additional Autumn Winter range: for our printed, wholesale winter catalogue <a href="?page=contact">please drop us an email</a>.</p>
+  <!-- <span class="drop_cap">W</span>elcome to our current online, wholesale catalogue. Please <a href="?page=contact">contact us</a> for wholesale enquiries. For retail please visit <a href="?page=stockists">one of our stockists</a> , or visit our <a href="<?php echo $GLOBALS['eBay_store']; ?>">eBay shop, Emma&rsquo;s Emporium Textiles</a>, to buy a select range on line, and don&rsquo;t forget to follow our social media links to keep up to date with our latest news.</p> -->
 <?php
 echo '<div id="accordion">';
 $odd = false;
@@ -238,3 +237,5 @@ $odd = false;
     echo '</div>';
 }
 ?>
+  <p class="stand_out lower">Visit our <a href="<?php echo $GLOBALS['eBay_store']; ?>">eBay shop, Emma&rsquo;s Emporium Textiles</a>, to buy a select range on line, and don&rsquo;t forget to follow our social media links to keep up to date with our latest news.</p>
+

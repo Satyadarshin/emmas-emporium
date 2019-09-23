@@ -26,7 +26,7 @@
             <p>&copy; <?php echo COPYRIGHT . ' ' . date('Y'); ?></p>
         </div>
         <div class="small-12 medium-12 large-6 columns">
-            <p><? echo DESIGNER; ?><br/><? echo PHOTOGRAPHER; ?></p>
+            <p><?php echo DESIGNER; ?><br/><?php echo PHOTOGRAPHER; ?></p>
         </div>
     </div>
 </footer>

@@ -1,4 +1,8 @@
 <p>We don&rsquo;t attend trade fairs but we are always looking for new wholesale stockists, if you run a shop and are interested in stocking our goods please get in touch, equally if you know of a shop in your local town that would benefit from some Emma&rsquo;s Emporium sparkle tell us about them!</p>
+
+<?php
+/*
+This is an archive of marked-up stockists for future reference.
 <ul>
     <li><strong>Axminster</strong>, <a href="http://www.millersfarmshop.com/">Millers Farms Shop</a> (blankets only). Gammons Hill, EX13 7RA</li>
     <li><strong>Bury St Edmunds</strong>, Sunrise, 83 St Johns St, IP33 1SQ</li>
@@ -14,9 +18,6 @@
     <li><strong>Swanage</strong>, <a href="https://www.pixieapp.co/businesses/6227/rainbows-end">Rainbows End</a>, 10 the square, BH19 2LJ</li>
     <li><strong>Taunton</strong>, Peaches, 4 Bath Place, TA1 4ER</li>
 </ul>
-
-<?php
-/*
 <ul>
  	<li><strong>Bury St Edmunds</strong>, <a href="http://www.sunrisedirect.co.uk/">Sunrise</a></li>
  	<li><strong>Colchester</strong>, <a href="https://www.facebook.com/tradersoftheeast?rf=118392831549561">Traders of the East</a></li>

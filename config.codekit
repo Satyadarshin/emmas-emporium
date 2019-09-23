@@ -14473,6 +14473,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/gallery\/portrait.14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 397378,
+		"inputAbbreviatedPath": "\/images\/gallery\/portrait.14.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery\/portrait.14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gallery\/portrait.15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 522527,
+		"inputAbbreviatedPath": "\/images\/gallery\/portrait.15.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery\/portrait.15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gallery\/portrait.16.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 623111,
+		"inputAbbreviatedPath": "\/images\/gallery\/portrait.16.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery\/portrait.16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/layout\/baggedTagged.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14480,6 +14513,17 @@
 		"initialSize": 388046,
 		"inputAbbreviatedPath": "\/images\/layout\/baggedTagged.jpg",
 		"outputAbbreviatedPath": "\/images\/layout\/baggedTagged.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/boxshelvesPurses.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346652,
+		"inputAbbreviatedPath": "\/images\/layout\/boxshelvesPurses.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/boxshelvesPurses.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14502,6 +14546,28 @@
 		"initialSize": 49273,
 		"inputAbbreviatedPath": "\/images\/layout\/catalogue.png",
 		"outputAbbreviatedPath": "\/images\/layout\/catalogue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/catPurses.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 402596,
+		"inputAbbreviatedPath": "\/images\/layout\/catPurses.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/catPurses.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/colourSplash.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 544214,
+		"inputAbbreviatedPath": "\/images\/layout\/colourSplash.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/colourSplash.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14704,6 +14770,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/layout\/prayerFlags.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 305232,
+		"inputAbbreviatedPath": "\/images\/layout\/prayerFlags.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/prayerFlags.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/purseSeller.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330850,
+		"inputAbbreviatedPath": "\/images\/layout\/purseSeller.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/purseSeller.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/layout\/rickshaws.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14737,6 +14825,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/layout\/sequinJacket.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 589796,
+		"inputAbbreviatedPath": "\/images\/layout\/sequinJacket.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/sequinJacket.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/layout\/shelvesStackedHigh.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14755,6 +14854,50 @@
 		"initialSize": 429928,
 		"inputAbbreviatedPath": "\/images\/layout\/silverMaskBonnie.jpg",
 		"outputAbbreviatedPath": "\/images\/layout\/silverMaskBonnie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/stepsWomenGuatemala.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330335,
+		"inputAbbreviatedPath": "\/images\/layout\/stepsWomenGuatemala.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/stepsWomenGuatemala.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/swayambhunathStupa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 232596,
+		"inputAbbreviatedPath": "\/images\/layout\/swayambhunathStupa.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/swayambhunathStupa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/textileRolls.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 259242,
+		"inputAbbreviatedPath": "\/images\/layout\/textileRolls.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/textileRolls.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/tie-dye.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 511860,
+		"inputAbbreviatedPath": "\/images\/layout\/tie-dye.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/tie-dye.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14946,27 +15089,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
 	"\/scss\/_article.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -15112,6 +15234,27 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/Zurb_Foundation.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Zurb_Foundation.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/Zurb_Foundation.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		}
 	},
 "hooks": [

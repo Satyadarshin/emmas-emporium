@@ -4075,6 +4075,9 @@ article {
     .stand_out a:hover {
       color: #b13dff; }
 
+.lower {
+  margin-top: 1rem; }
+
 .post {
   width: 48%;
   float: left; }

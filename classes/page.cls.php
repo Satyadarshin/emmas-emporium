@@ -58,6 +58,7 @@ class page {
         $this->facebook = ( $GLOBALS['facebook_page'] ) ? '<a href="' . $GLOBALS['facebook_page'] . '" target="_blank" ><img src="images/layout/facebook-icon.png" /></a>' : '';
         $this->instagram = ( $GLOBALS['instagram'] ) ? '<a href="' . $GLOBALS['instagram'] . '" target="_blank" ><img src="images/layout/instagram-icon.png" /></a>' : '';
         $this->twitter = ( $GLOBALS['instagram'] ) ? '<a href="' . $GLOBALS['twitter'] . '" target="_blank" ><img src="images/layout/twitter-icon.png" /></a>' : '';
+        $this->etsy = ( $GLOBALS['etsy'] ) ? '<a href="' . $GLOBALS['etsy'] . '" target="_blank" ><img src="images/layout/etsy-icon.png" /></a>' : '';
 		echo '<!doctype html><html class="no-js" lang="en" itemscope itemtype="'. SCHEMA .'">';
 		$this->documentHead();
 		echo "<body>";
@@ -118,7 +119,7 @@ class page {
                     'class' => 'social_btns',
                     'do' => array(
                         'method' => 'echo',
-                        'output' => $this->ebay . ' ' . $this->facebook . ' ' . $this->instagram . ' ' . $this->twitter
+                        'output' => $this->ebay . ' ' . $this->facebook . ' ' . $this->instagram . ' ' . $this->twitter . ' ' . $this->etsy
                     ),
                    'columns' => array(
                         'large' => 4,

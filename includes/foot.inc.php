@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="large-12 columns social_btns">
                     <p id="eBay"><?php echo $this->ebay; ?></p>
-                    <p><?php echo $this->facebook; echo $this->instagram; echo $this->twitter; ?></p>
+                    <p><?php echo $this->facebook; echo $this->instagram; echo $this->twitter; echo $this->etsy; ?></p>
                 </div>
             </div>
         </div>
